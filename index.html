@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CookingRecipe</title>
+    <link rel = "icon" type = "image/png" href = "./img/120934052-cooking-logo-template.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <header>
+        <div class="nav-barr">
+            <div id="logo">
+                <a href="index.html"><img src="./img/logo-1.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Почетна</a></li>
+                    <li><a href="javascript:void(0)" id="recept">Рецепти</a></li>
+                    <li><a href="javascript:void(0)" id="kontakt">Контакт</a></li>
+                    <li><a href="zanas.html" id="kontakt">За Нас</a></li>
+                </ul>
+               
+            </nav>
+            <div class="icons">               
+                <i class="fas fa-search"></i>
+                <a href="newRecipe.html"><i class="fas fa-plus new-page"></i></a>
+            </div>
+        </div>
+        <input  id="search" type="text" placeholder="What do you want to search" autocomplete="off">
+
+        <div class="showcase-content">
+            <h1 class="l-heading"> 
+             ПОГЛЕДНЕТЕ ГИ НАШИТЕ РЕЦИПИ
+            </h1>
+            <p class="lead">
+                Колекција од рецепти на вкусни јадења и популарни коктели.Зготви нешто вкусно.
+            </p>
+            <button class="btnn">Рецепти</button>
+          </div>
+    </header>
+
+    <section class="items">
+        <div class="itemm fish">
+            <img id="fish" src="./img/cat-1.jpg" alt="">
+            <h3>Риба</h3>
+        </div>
+        <div class="itemm kokteli">
+            <img src="./img/cat-2.jpg" alt="">
+            <h3>Коктели</h3>
+        </div>
+        <div class="itemm jajca">
+            <img src="./img/cat-3.jpg" alt="">
+            <h3>Јајца</h3>
+        </div>
+        <div class="itemm salati">
+           <img src="./img/cat-4.jpg" alt="">
+            <h3>Салати</h3>
+        </div>
+        <div class="itemm pasti">
+            <img src="./img/pasta.jpg" alt="">
+            <h3>Пасти</h3>
+        </div>
+        <div class="itemm pica">
+            <img src="./img/cat-6.jpg" alt="">
+            <h3>Пица</h3>
+        </div>
+    </section>
+     <section class="specialties pistacia-vc-specialties" id="specialties">
+        <div class="container">
+            <div class="specialties-wrapper">
+                <div class="left-photo">
+                    <div class="inner">
+                        <img src="./img/img4-1.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+    
+                <div class="right-text">
+                    <div class="inner">
+                        <h1 class="text-center">Наши <span class="extra-bold">специјалитети</span></h1>
+                        <p class="text-center">
+                            Македонската кујна е репрезентативна кујна за Балканот, со турски, грчки и блискоисточни влијанија, како и, 
+                            во помала мера италијански, медитерански и унгарски влијанија. 
+                            Заради релативно топлата клима која дозволува одлични услови за растење на разни зеленчуци, 
+                            овошја, зачини и билки, македонската кујна е особено разновидна.
+                            Македонската кујна е исто така позната по разновидноста и количеството на млечни производи и 
+                            локални алкохолни пијалаци како разни вина, ракии и мастика..     
+                        </p>
+                    </div>
+                    <div class="karti">
+                        <div class="spec-karta ckembe">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="spec-img" src="./img/ham-leg-150x150.png" alt="">
+                                <h4 class="spec-text">Чкембе-чорба</h4>
+                                <button class="btnn">Инфо</button>
+                              </div>
+                                <div class="flip-card-back">
+                                <img src="./img/shkembe-chorba.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="spec-karta gravce">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="spec-img" src="./img/covered-plate-of-food-150x150.png" alt="">
+                                <h4 class="spec-text ">Тавче гравче</h4>
+                                <button class="btnn">Инфо</button>
+                              </div>
+                                <div class="flip-card-back">
+                                <img src="./img/tavcegrafce.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="spec-karta torta">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="spec-img" src="./img/coffee-grains-150x150.png" alt="">
+                                <h4 class="spec-text">Чоколадна торта</h4>
+                                <button class="btnn">Инфо</button>
+                              </div>
+                                <div class="flip-card-back">
+                                <img src="./img/cokoladna-torta-so-puding-i-cokoladen-krem.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="specijaliteti">
+    </section>
+    <section id="najnovi-recepti">
+        <h1 style="margin: 20px 0px; text-align: center; color: white;">Најнови Рецепти</h1>
+        <div class="container">
+            <div class="red" style="background-color: gray;">
+                <div class="card" style="width: 15rem;">
+                    <div class="header-najnovi" style="height: 120px;">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/2/2018/11/OnePotPasta-47b5b0a.jpg?quality=45&resize=768,574" alt="">
+                    </div>
+                    <div class="text">
+                       <h1 class="food" style="font-size: 15px;">
+                          МАКАРОНИ
+                       </h1>
+                       <i class="fa fa-clock"> 120 Mins</i>
+                       <i class="fa fa-users"> Лица 5</i>
+                       
+                    </div>
+                    <div class="buttons">
+                    <a href="javascript:void(0)" class="btn aasss">Повеќе</a>
+                    <i class="fa fa-trash aad"> </i>
+                    </div>
+                 </div>
+
+                 <div class="card" style="width: 15rem;">
+                    <div class="header-najnovi" style="height: 120px;">
+                        <img src="https://moirecepti.mk/content/uploads/2020/06/101611725_253409095747882_4190756567466901504_n-42ac0f-800x600.jpg" alt="">
+                    </div>
+                    <div class="text">
+                       <h1 class="food" style="font-size: 15px;">
+                          МЕКИЦИ
+                       </h1>
+                       <i class="fa fa-clock"> 30 Mins</i>
+                       <i class="fa fa-users"> Лица 10</i>
+                       
+                    </div>
+                    <div class="buttons">
+                    <a href="javascript:void(0)" class="btn poveke">Повеќе</a>
+                    <i class="fa fa-trash aad"> </i>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="recipe-info">
+            <!-- <div class="food-png"><img src="./img/two-baked-breads-1756062.jpg" alt=""></div>
+            <div class="content">
+            <i class="fas fa-times exit-info"></i>
+            <h1 class="title">Two Baked Breads</h3>
+            <h3>Main Ingredients</h1>
+            <ul>
+                <li>1 lb ground beef</li>
+                <li>1 egg</li>
+                <li>2 cups water</li>
+                <li>4 cloves of garlic</li>
+                <li>1 tsp freshly ground black pepper</li>
+                <li>4 large bell peppers</li>
+                <li>1 cup finley grated parmigiano reggiano</li>
+            </ul>
+        </div>
+        <div class="info">
+            <h1>Nutrition Facts</h1>
+            <ul>
+                <li>Serving Size <span class="text-primary">6</span></li>
+                <li>Serving <span class="text-primary">6</span></li>
+                <li>Calories<span class="text-primary"></span></li>
+                <li>Total Fat<span class="text-primary"></span></li>
+                <li>Cholesterol<span class="text-primary"></span></li>
+                <li>Sodium<span class="text-primary"></span></li>
+                <li>Potassium<span class="text-primary"></span></li>
+                <li>Total Carbohydrate<span class="text-primary"></span></li>
+            </ul>
+        </div> -->
+    </section>
+    
+    <section class="recipes" id='recepti'>
+        <div class="container load">
+            <h1>Рецепти</h1>
+            <div class="row">
+
+                <!-- <div class="card">
+                    <div class="header">
+                    </div>
+                    <div class="text">
+                       <h1 class="food">
+                          Chinese Noodles
+                       </h1>
+                       <i class="fa fa-clock-o"> 15 Mins</i>
+                       <i class="fa fa-users"> Serves 2</i>
+                       <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, temporibus.</p>
+                    </div>
+                    <a href="#" class="btn">Let's Cook!</a>
+                 </div>
+
+                 
+                <div class="card">
+                    <div class="header">
+                    </div>
+                    <div class="text">
+                       <h3 class="food">
+                          Chinese Noodles
+                       </h3>
+                       <i class="fa fa-clock-o"> 15 Mins</i>
+                       <i class="fa fa-users"> Serves 2</i>
+                       <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, temporibus.</p>
+                    </div>
+                    <a href="#" class="btn">Let's Cook!</a>
+                 </div>
+
+                 <div class="card">
+                    <div class="header">
+                        <img src="http://img.taste.com.au/UZVXAdo7/taste/2016/11/chinese-egg-noodle-and-vegetable-stir-fry-94186-1.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                       <h3 class="food">
+                          Chinese Noodles
+                       </h3>
+                       <i class="fa fa-clock"> 15 Mins</i>
+                       <i class="fa fa-users"> Serves 2</i>
+                       <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, temporibus.</p>
+                    </div>
+                    <a href="#" class="btn">Let's Cook!</a>
+                 </div> -->
+
+            <!-- <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="recipe">
+                    <img id="foodimg" src="./img/two-baked-breads-1756062.jpg" alt="">
+                    <h3 class="title">Bread</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div id="overlay">
+            <i class="fas fa-play playbtn"></i>
+            <h1>Погледнете едно наше видео од приготвока на месо</h1>
+            <div id="playvideo">
+            <iframe id="youtube" width="760" height="500" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <i class="fas fa-times exitbtn"></i>
+        </div>
+        </div>
+    </section>
+      <section class="contact">
+        <div class="pink">
+            <img src="./img/contact-shepe-blue.png" alt="">
+        </div>
+        <div class="white">
+            <img src="./img/contact-shepe-white.png" alt="">
+        </div>
+            <div class="contact-text">
+                <h2>Контакт</h2>
+                <p>Запознајте го нашиот тим.</p>
+            </div>
+
+            <div class="contact-form">
+                <form action="#" method="POST" data-netlify="true">
+                    <div class="first">
+                        <input type="text" name="" placeholder="Име">
+                    </div>
+                    <div class="last">
+                        <input type="text" name="" placeholder="Презиме">
+                    </div>
+                    <div class="email">
+                        <input type="email" name="" placeholder="Емаил адреса">
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Порака"></textarea>
+                    </div>
+                        <div class="submit">
+                            <input type="submit" value="Испрати">
+                        </div>
+                </form>
+            </div>
+            <!-- <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24077.18578655872!2d21.32713215!3d41.0329515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smk!4v1590593769548!5m2!1sen!2smk" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+            <!-- <div    id="map"></div>  -->
+            <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDT7JX6JmSg8HQilm4g27xkdlws7SsLLeQ&q=41.035026,21.327298" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </section>
+
+      <footer class="footer">
+        <div class="footer-icon">
+            <h2>Cooking Recipe</h2>
+            <p>
+            <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></i></a>
+            <a href=""><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </p>
+            <h5>&copy; All Right Reserved 2020</h5>
+        </div>
+            <div class="footer-text">
+                <div class="footer-text-single">
+                    <h3>За нас</h3>
+                    <p><a href="">Нашиот тим</a></p>
+                    <p><a href="">Компанија</a></p>
+                    <p><a href="">Работа</a></p>
+                    <p><a href="">Најнови рецепти</a></p>
+                </div>
+
+                <div class="footer-text-single">
+                    <h3>Помош</h3>
+                    <p><a href="">Документација</a></p>
+                    <p><a href="">Туторијали</a></p>
+                    <p><a href="">Употреба</a></p>
+                    <p><a href="">Политика за приватност</a></p>
+                </div>
+            
+                <div class="footer-text-single">
+                    <h3>Алатки</h3>
+                    <p><a href="">Регистер</a></p>
+                    <p><a href="">Логин</a></p>
+                    <p><a href="">Услуги</a></p>
+                    <p><a href="">Мапа</a></p>
+                </div>
+            
+                <div class="footer-text-single">
+                    <h3>Стапи во контакт</h3>
+                    <p><a href="">Контакт</a></p>
+                    <p><a href="">улица Филип II Македонски</a></p>
+                    <p><a href="">+39807123456</a></p>
+                    <p><a href="">support@gmail.com</a></p>
+                </div>
+            </div>  
+    </footer> 
+    <button id="btntop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+      <script src="app.js" defer></script>
+      <!-- <script src="recipe.js"></script> -->
+      <!-- <script src="./insert-data.js" defer></script> -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+</html>

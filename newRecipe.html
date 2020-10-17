@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НовРецепт</title>
+    <link rel = "icon" type = "image/png" href = "./img/120934052-cooking-logo-template.jpg">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</head>
+<body class="bg-secondary ">
+    <section id="recipe-info"></section>
+<a href="index.html" class="back"><i class="far fa-arrow-alt-circle-left"></i></a>
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-5 register-left">
+                <div class="frame">
+                    <div class="card">
+                        <div class="header">
+                            <img class="slika" src="" alt="">
+                        </div>
+                        <div class="text">
+                           <h3 class="food">
+                               
+                           </h3>
+                           <i class="fa fa-clock"> Mins</i>
+                           <i class="fa fa-users"> Serves </i>
+                        </div>
+                        <a href="#" class="btn poveke">ПОВЕЌЕ</a>
+                     </div>
+                </div>
+            </div>
+            <div class="col-md-7 register-right">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Нов рецепт</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="ime" class="form-control" placeholder="Име на рецепт *" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" id="golemina" class="form-control" placeholder="Број на порции" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="sostojki" placeholder="Состојки*" cols="1" rows="10" style=" resize: none;"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="slika" class="form-control" placeholder="Слика(CDN)*(https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" id="vreme" class="form-control" placeholder="Време(MIN) на подготовка" value="" required/>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="podgotovka" placeholder="Подготвка" cols="1" rows="10" style=" resize: none; "></textarea>
+                                </div>
+                                <input type="submit" class="btnRegister kreiraj"  value="Креирај"/>
+                                <input type="submit" class="btnRegister pregled"  value="Прегледај">
+                            </div>
+                            <h3 class="uspesno" >Рецептот е успешно креиран.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="recipe.js"></script>
+    </div>
+</body>
+</html>
